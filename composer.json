@@ -1,0 +1,33 @@
+{
+    "name": "loduis/feec-signer",
+    "description": "This package sign document for sri ecuador",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loduis Madariaga",
+            "email": "loduis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FEEC\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FEEC\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "loduis/xml-signature": "master"
+    },
+    "require-dev": {
+        "loduis/xml-tests": "master"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
