@@ -2,6 +2,8 @@
 
 namespace FEEC;
 
+use DOMNode;
+use XML\Element;
 use XML\Signature;
 use XML\Signature\Key;
 use XML\Signature\Digest;
@@ -30,6 +32,13 @@ class Signer extends Signature
                 $this->xades['certs'][0]
             ];
         }
+    }
+
+    public function sign(DOMNode $node, $appendTo = null): string
+    {
+        parent::sign($node, $appendTo);
+
+        return Element::stripXmlns($node->saveXML());
     }
 
     protected function uuid($postfix): string
