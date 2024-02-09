@@ -24,11 +24,17 @@ class Signer extends Signature
         parent::__construct($options);
 
         $this->namespaces = implode(' ', $this->namespaces);
+
+        if (count($this->xades['certs']) > 1) {
+            $this->xades['certs'] = [
+                $this->xades['certs'][0]
+            ];
+        }
     }
 
-    protected function uuid($posfix): string
+    protected function uuid($postfix): string
     {
-        return  $posfix ? $this->prefix . '-' . $posfix : $this->prefix;
+        return  $postfix ? $this->prefix . '-' . $postfix : $this->prefix;
     }
 
     protected function prepareOptions(array $options): array
@@ -43,9 +49,9 @@ class Signer extends Signature
 
         $this->prefix = $options['prefix'] ?? 'xmldsig-' . $this->randomId();
 
-        foreach ($defaults as $key => $posfix) {
+        foreach ($defaults as $key => $postfix) {
             if (!($options[$key] ?? false)) {
-                $options[$key] = $this->uuid($posfix);
+                $options[$key] = $this->uuid($postfix);
             }
         }
         $options['reference_uri'] = '#comprobante';

@@ -9,6 +9,7 @@ use DOMDocument;
 use XML\Tests\Cert;
 use XML\Signature\X509;
 use XML\Tests\TestCase;
+use Dotenv\Dotenv;
 
 class SignerTest extends TestCase
 {
@@ -40,4 +41,28 @@ class SignerTest extends TestCase
         $this->assertTrue($signature->verify());
         $this->assertMatchesXmlSnapshot((string) $signature);
     }
+
+    /*
+    public function testShouldCreateXml2()
+    {
+        $certificate = X509::fromFile(__DIR__ . '/resources/cert.p12', $_ENV['CERT_PASS']);
+
+        $doc = new DOMDocument();
+        $doc->load(__DIR__ . '/resources/test.xml');
+
+        $signature = new Signer([
+            'certificate' => $certificate,
+            'id' => 'Signature1645664475',
+            'reference_id' => 'Reference-ID-2010957418',
+            'object_id' => 'Signature1645664475-Object1007621934',
+            'key_info_id' => 'Certificate2061127488',
+            'signature_value_id' => 'SignatureValue398963',
+            'signed_properties_id' => 'Signature1645664475-SignedProperties955375121',
+            'time' => '2024-02-05T08:30:27-05:00',
+        ]);
+        $signature->sign($doc);
+        $this->assertTrue($signature->verify());
+        $this->assertMatchesXmlSnapshot((string) $signature);
+    }
+    */
 }
