@@ -17,7 +17,12 @@ class Signer extends Signature
 
     protected string $prefix;
 
-    protected $namespaces = [];
+    protected int $chunks = 76;
+
+    protected $namespaces = [
+        'xmlns:ds="' . Signature::NS. '"',
+        'xmlns:etsi="' . Xades::NS . '"'
+    ];
 
     public function __construct(array $options = [])
     {
@@ -79,6 +84,37 @@ class Signer extends Signature
         ]);
 
         return $options;
+    }
+    protected function canonicalize($node): string
+    {
+        $xml = parent::canonicalize($node);
+
+        foreach (['ds:KeyInfo', 'xades:SignedProperties', 'ds:SignedInfo'] as $tagname) {
+            if ($this->injectNamespaces($tagname, $xml)) {
+                break;
+            }
+        }
+
+        return $xml;
+    }
+
+    protected function injectNamespaces($tagname, & $xml): bool
+    {
+        $regex = "!<$tagname([^>]*)>.+?</$tagname>!is";
+        if (!preg_match($regex, $xml, $matches)) {
+            return false;
+        }
+        $attributes = [];
+        $search = trim($matches[1]);
+        foreach (explode(' ', $search) as $attribute) {
+            if (strpos($attribute, ':') === false) {
+                $attributes[] = $attribute;
+            }
+        }
+        $replace = trim($this->namespaces . ' ' .implode(' ', $attributes));
+        $xml = str_replace(' ' . $search, ' ' . $replace, $xml);
+
+        return true;
     }
 
     protected function randomId(): string
