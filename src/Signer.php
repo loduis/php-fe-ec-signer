@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace FEEC;
 
 use DOMNode;
@@ -85,6 +87,7 @@ class Signer extends Signature
 
         return $options;
     }
+
     protected function canonicalize($node): string
     {
         $xml = parent::canonicalize($node);

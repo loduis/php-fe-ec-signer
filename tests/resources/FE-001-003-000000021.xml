@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autorizacion>
+  <estado>AUTORIZADO</estado>
+  <numeroAutorizacion>0503202401180191122100110010030000000212403102414</numeroAutorizacion>
+  <fechaAutorizacion>2024-03-06T06:12:11-05:00</fechaAutorizacion>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>1</ambiente><tipoEmision>1</tipoEmision><razonSocial>DAVID FERNANDO JARRIN PAEZ</razonSocial><nombreComercial>PUBLICITA CLICK</nombreComercial><ruc>1801911221001</ruc><claveAcceso>0503202401180191122100110010030000000212403102414</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>003</ptoEmi><secuencial>000000021</secuencial><dirMatriz>Geometria Moral y Regenerador</dirMatriz><contribuyenteRimpe>CONTRIBUYENTE RÉGIMEN RIMPE</contribuyenteRimpe></infoTributaria><infoFactura><fechaEmision>05/03/2024</fechaEmision><dirEstablecimiento>Geometria Moral y Regenerador</dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad><tipoIdentificacionComprador>07</tipoIdentificacionComprador><razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador><identificacionComprador>9999999999999</identificacionComprador><totalSinImpuestos>4.00</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>6</codigoPorcentaje><baseImponible>2.00</baseImponible><tarifa>0</tarifa><valor>0.00</valor></totalImpuesto><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><baseImponible>1.00</baseImponible><tarifa>12</tarifa><valor>0.12</valor></totalImpuesto><totalImpuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><baseImponible>1.00</baseImponible><tarifa>0</tarifa><valor>0.00</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>4.12</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>16</formaPago><total>4.12</total><plazo>15</plazo><unidadTiempo>dias</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><descripcion>Clases de Piano - TEDMA</descripcion><cantidad>1</cantidad><precioUnitario>2.00</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>2.00</precioTotalSinImpuesto><detallesAdicionales><detAdicional nombre="Observaciones" valor="$1570 pesos"/></detallesAdicionales><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>6</codigoPorcentaje><tarifa>0</tarifa><baseImponible>2.00</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle><detalle><descripcion>Acompañamiento</descripcion><cantidad>1</cantidad><precioUnitario>1.00</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>1.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12</tarifa><baseImponible>1.00</baseImponible><valor>0.12</valor></impuesto></impuestos></detalle><detalle><descripcion>Adelanto a Maestro</descripcion><cantidad>1</cantidad><precioUnitario>1.00</precioUnitario><descuento>0.00</descuento><precioTotalSinImpuesto>1.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>0</codigoPorcentaje><tarifa>0</tarifa><baseImponible>1.00</baseImponible><valor>0.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Observaciones">Inicio: 03/06/2023 con Jose
+Horario: Sab 10am</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="xmldsig-55eda7a4a742"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference Id="xmldsig-55eda7a4a742-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>vnzpb6tQ2d8FI0ER4/vz414NMq4=</ds:DigestValue></ds:Reference><ds:Reference URI="#xmldsig-55eda7a4a742-keyinfo"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>3sfdFVGJO7zK/SjZCV2Z6oWYT8o=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-55eda7a4a742-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>QQsliaHVupLA3bMpdq6KmnE2QPk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-55eda7a4a742-sigvalue">akrgpJJu7Vtflny6XmnNZBbPt3nHqpEBZeMyIKpw5oKlKHf2ptqdpf/mWnD8tGQ780iQf7PCxVmsuAjOFOqw9iN6657PAAMr+3GFbtuqeEfcgXDFXvTltmuOmcDZINzPFiL6x3zciW4Q83p48BoOmEPZlXN7THAe7m2hVp5jfzH2gARABCaprCi/qlIb9y/Un+e1q0U6rdaHPtNlEer5MeM1rJTkVOLXLZ6hPddY1rDSf/gXJbo2nJmqZ3zDbFpmUaexcmEjX0xD2xJ9syUBQQa58DitCv+SBUuD+FVAeGgOFMKOdWfg99QIKc8mkR2wgEvbcOrem+Ma8mK659lRww==</ds:SignatureValue><ds:KeyInfo Id="xmldsig-55eda7a4a742-keyinfo"><ds:X509Data><ds:X509Certificate>MIILzzCCCbegAwIBAgIEdd9CAzANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMzA2MjYxOTU0MzFaFw0yNTA2MjUxOTU0MzFaMIGaMSMw
+IQYDVQQDDBpEQVZJRCBGRVJOQU5ETyBKQVJSSU4gUEFFWjEVMBMGA1UEBRMMMjYwNjIzMTUwMzU3
+MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAMdl+u5N7fi8mathzqUrli8RKNvjyV2M3nonU8lTVaV8qiPi7S1tBxrXvKN4
+De3T+xDVSZr7FMz/LXF2jXwIfF6uRe85fc5WWcLLC68nmschvyGI1o8ZiLboo0tZGBECgIjCBUiC
+L4+N8ses5KpEYRJC38Gh+K36gPxxkS7MV2nXbdINS54c1UcvgPgFhNlXOGcZilVIm6mpryY4UFL2
+o0tCkVqY8l/bF+CiICyHTAZ3OK/hEn03xO2W6a7oLs5wnAMnaYTx0F1Mujhpd5irF9i4njFeP1BR
+a88+fcAwYPZg5iCb1WOoFh80S0aE2ok+s5VQUaeP4datD16z89+xEAUCAwEAAaOCBxowggcWMAwG
+A1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUHAQEE
+TTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2Ev
+cHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuGgbhsZGFwOi8vbGRh
+cHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04g
+U1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZP
+Uk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZvY2F0aW9uTGlzdD9i
+YXNlMCEGA1UdEQQaMBiBFmphcnJpbi5kYXZpZEBnbWFpbC5jb20wggEGBgNVHSAEgf4wgfswWgYK
+KwYBBAGCpnICBzBMMEoGCCsGAQUFBwICMD4ePABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABkAGUA
+IABQAGUAcgBzAG8AbgBhACAATgBhAHQAdQByAGEAbDCBnAYKKwYBBAGCpnICATCBjTCBigYIKwYB
+BQUHAgEWfmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29udGVudC9kb3dubG9h
+ZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMgZGUgQ2VydGlmaWNhZG8g
+UGVyc29uYSBOYXR1cmFsLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0cDovL29jc3Bn
+dy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcKKBn6SBnDCB
+mTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBE
+QVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAb
+BgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCBx6CBxKCBwYaBvmxkYXA6
+Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9jZXJ0aWZpY2F0ZVJldm9j
+YXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJp
+dHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlz
+c3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEs
+T1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFU
+QSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUU9FPhNSsl5yzSOMTMeQRFwtCjlkwKwYDVR0QBCQwIoAP
+MjAyMzA2MjYxOTU0MzFagQ8yMDI1MDYyNTE5NTQzMVowCwYDVR0PBAQDAgXgMBoGCisGAQQBgqZy
+AwEEDAwKMTgwMTkxMTIyMTAWBgorBgEEAYKmcgMJBAgMBkFNQkFUTzARBgorBgEEAYKmcgMiBAMM
+AS4wNAYKKwYBBAGCpnIDBwQmDCRERVNUQ08gQkFTRSBTVVIgU04gWSBERVNUQ08gVElXSU5UWkEw
+HgYKKwYBBAGCpnIDAgQQDA5EQVZJRCBGRVJOQU5ETzAfBgorBgEEAYKmcgMgBBEMDzAxMDAwMTAw
+MDAwMTM2MDARBgorBgEEAYKmcgMjBAMMAS4wEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGC
+pnIDDAQJDAdFQ1VBRE9SMBYGCisGAQQBgqZyAwMECAwGSkFSUklOMBEGCisGAQQBgqZyAx4EAwwB
+LjAdBgorBgEEAYKmcgMLBA8MDTE4MDE5MTEyMjEwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBQGCisG
+AQQBgqZyAwQEBgwEUEFFWjAaBgorBgEEAYKmcgMIBAwMCjA5OTY1NzE3MDMwDQYJKoZIhvcNAQEL
+BQADggIBAKt8YH59ZTOPcRgr60NPNz4evk70fbkZbfvZd8VT58EA3pwGvq8Fn3MW/zDoO1umeXxE
+EV2ziCsfwr4yF2cfKxIw+HVOfQSKOAzKveoXBtBS9ur5CWEoeYzI1Qgi1KU1SUPDMjkp9dLpVIgF
+eF6+4eUP2PbSO4/v6raAiq/Yar0BNcagtiCSYxMhROLb2AcXAjz8yFGyGHvhKNcuCRdg/ZQlAqXn
+b3KfOtOUPjnNlWvH6Prq0J1DnIJBpgPPM1snJZdjyzsT+ghftXgXdGofoVFUe8aXfV9swRjCeoVh
+OGeeqP/TCCUZkGRAc66yrCnUjcqX8jCGh5sUhmFir2MqiV7NsUlhqLc67sVAjuoEIcsTH8pK6Jmf
+1om/vOeV5Eabx45CglXTzHXBGsCPk9eV8Xg2dkX+0q45YBcwjuO/5YnHgbnyRD4T6kTIZXUupFvU
+8/ki4kbaiKMAI/Zp/oaqVY8f1d/WFYMILhHBvuDPYwbWNk97Fx4zHgPBFqJadMCFcpcwWNMyczlH
+XyenxSwBmMz2zOGouPwaOYzKBNxex0gUjeTMkmcS1yoFewpbRypUPy2AFKI+7NE2LIX3pNXEpeig
+UveUMspb/BpIKBhJQgK0KceAFeEGjDRN4clqyLuSt1zeubhVMxL0aSkDJqdBmW2OlKxYXbs2v6bF
+a4I8f9zs
+</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>x2X67k3t+LyZq2HOpSuWLxEo2+PJXYzeeidTyVNVpXyqI+LtLW0HGte8o3gN7dP7ENVJmvsUzP8tcXaNfAh8Xq5F7zl9zlZZwssLryeaxyG/IYjWjxmItuijS1kYEQKAiMIFSIIvj43yx6zkqkRhEkLfwaH4rfqA/HGRLsxXaddt0g1LnhzVRy+A+AWE2Vc4ZxmKVUibqamvJjhQUvajS0KRWpjyX9sX4KIgLIdMBnc4r+ESfTfE7ZbpruguznCcAydphPHQXUy6OGl3mKsX2LieMV4/UFFrzz59wDBg9mDmIJvVY6gWHzRLRoTaiT6zlVBRp4/h1q0PXrPz37EQBQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object><etsi:QualifyingProperties Target="#xmldsig-55eda7a4a742" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><etsi:SignedProperties Id="xmldsig-55eda7a4a742-signedprops"><etsi:SignedSignatureProperties><etsi:SigningTime>2024-03-06T11:12:10Z</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>lJG9pyP5VQ2vX0A1StMw/grIrzg=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1977565699</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#xmldsig-55eda7a4a742-ref0"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]>
+  </comprobante>
+  <mensajes/>
+</autorizacion>
