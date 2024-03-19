@@ -28,7 +28,7 @@ class Validator
             return false;
         }
 
-        $node = static::toDocument($node->textContent)->firstElementChild;
+        $node = static::toDocument($node->textContent)->firstChild;
 
         if (!($info = static::verifySignature($node))) {
             return false;
