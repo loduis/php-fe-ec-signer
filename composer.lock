@@ -55,12 +55,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/loduis/php-xml-signature.git",
-                "reference": "95a5bf8cb424f255f771082470538e8215a6bed6"
+                "reference": "1a0225302d61d9df721a3d9930ce4fb9c2c5facf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/loduis/php-xml-signature/zipball/95a5bf8cb424f255f771082470538e8215a6bed6",
-                "reference": "95a5bf8cb424f255f771082470538e8215a6bed6",
+                "url": "https://api.github.com/repos/loduis/php-xml-signature/zipball/1a0225302d61d9df721a3d9930ce4fb9c2c5facf",
+                "reference": "1a0225302d61d9df721a3d9930ce4fb9c2c5facf",
                 "shasum": ""
             },
             "require": {
@@ -94,7 +94,7 @@
                 "issues": "https://github.com/loduis/php-xml-signature/issues",
                 "source": "https://github.com/loduis/php-xml-signature/tree/master"
             },
-            "time": "2024-03-20T10:54:17+00:00"
+            "time": "2024-03-20T13:30:10+00:00"
         }
     ],
     "packages-dev": [
