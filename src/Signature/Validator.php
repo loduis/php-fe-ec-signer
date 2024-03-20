@@ -28,7 +28,7 @@ class Validator
             return false;
         }
 
-        $node = static::toDocument($node->textContent)->firstChild;
+        $node = static::toDocument($node->nodeValue)->firstChild;
 
         if (!($info = static::verifySignature($node))) {
             return false;
@@ -40,15 +40,15 @@ class Validator
             ) &&
             static::verifyReferences(
                 static::findElement($node, 'SignedProperties', Xades::NS), $info
-            )
-        ;
+            );
     }
 
     private static function toDocument(string $xml): DOMDocument
     {
         $doc = new DOMDocument();
-
-        $doc->loadXML($xml, LIBXML_NOBLANKS);
+        $doc->preserveWhiteSpace = true;
+        $doc->formatOutput = false;
+        $doc->loadXML($xml);
 
         return $doc;
     }
